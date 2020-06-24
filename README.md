@@ -149,7 +149,7 @@ For further formatting options refer to the [official `clang-format` documentati
 
 ## Known Issues
 
-Auto-completion not works in some situations.
+Auto-completion does not work in some situations.
 
 Some users consistently see an error like `spawnsync clang-format enoent` when they save. This happens when the "formatOnSave"-setting is enabled in VSCode and "clang-format" cannot be found. To fix this:
 
